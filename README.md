@@ -1,6 +1,4 @@
-Paper Theme
-
-===================
+## Paper Theme
 
 Forked from [PaperColor](https://github.com/vim-scripts/PaperColor.vim). Plus some modification of my own.
 
@@ -14,7 +12,13 @@ Currently designed for these file types:  C, C++, Java, Makefile, CMake, Bash, V
 
 ## Screenshots
 
+**Light & Dark Colorscheme**
+
 ![theme-toggle](./theme-toggle.png)
+
+###
+
+**Airine Support**
 
 ![airline-theme](./airline-theme.png)
 
