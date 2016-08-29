@@ -11,7 +11,7 @@ function! airline#themes#paper#refresh()
     let s:N1 = [ '#eeeeee' , '#005f87' , 255 , 24 ] " Mode
     let s:N2 = [ '#c6c6c6' , '#0087af' , 251 , 31 ] " Info
     if s:background == 'light'
-        let s:N3 = [ '#9e9e9e' , '#dadada' , 255 , 253 ] " StatusLine
+        let s:N3 = [ '#9e9e9e' , '#dadada' , 255 , 247 ] " StatusLine
     else
         let s:N3 = [ '#eeeeee' , '#444444' , 255 , 238 ]
     endif
@@ -24,7 +24,7 @@ function! airline#themes#paper#refresh()
     let s:I1 = [ '#eeeeee' , '#5f8700' , 255 , 64 ]
     let s:I2 = [ '#c6c6c6' , '#8a8a8a' , 251 , 245 ]
     if s:background == 'light'
-        let s:I3 = [ '#9e9e9e' , '#dadada' , 255 , 253 ]
+        let s:I3 = [ '#9e9e9e' , '#dadada' , 255 , 247 ]
     else
         let s:I3 = [ '#eeeeee' , '#444444' , 255 , 238 ]
     endif
@@ -38,10 +38,10 @@ function! airline#themes#paper#refresh()
 
 
     " Visual Mode:
-    let s:V1 = [ '#262626', '#ff00af', 235,  199 ]
+    let s:V1 = [ '#eeeeee', '#005f87', 255,  24 ]
     let s:V2 = [ '',        '#8a8a8a', '',  245  ]
     if s:background == 'light'
-        let s:V3 = [ '#9e9e9e', '#dadada', 255, 253  ]
+        let s:V3 = [ '#9e9e9e', '#dadada', 255, 247  ]
     else
         let s:V3 = [ '#eeeeee' , '#444444' , 255 , 238  ]
     endif
