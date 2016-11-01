@@ -8,8 +8,6 @@ Inspired by Google's Material Design
 
 Improve code readability; great for presentation
 
-Currently designed for these file types:  C, C++, Java, Makefile, CMake, Bash, VimL, Golang, JavaScript, JSON, HTML, XML, Python, Ruby, Markdown, DTrace, PlantUML, SQL/MySQL, Octave/MATLAB, R, PHP, Perl, LUA,  NGINX, Yaml, Dosini, reStructuredText
-
 ## Screenshots
 
 **Light & Dark Colorscheme**
@@ -28,7 +26,7 @@ Place 'paper.vim' file into 'colors' folder within your Vim directory, e.g. `~/.
 
 Or simply use a plugin manager like [vim-plug](https://github.com/junegunn/vim-plug) (recommended for easy `:PlugInstall`):
 
-    Plugin 'ashfinal/vim-colors-paper'
+    Plug 'ashfinal/vim-colors-paper'
 
 Then, put this in your `~/.vimrc`
 
@@ -48,4 +46,3 @@ colorscheme paper
 
 To switch to dark or light variant during session: `:set background=dark` or `:set background=light`
 
-To quickly toggle between them, use [vim-unimpaired](https://github.com/tpope/vim-unimpaired)'s keymap `cob`
